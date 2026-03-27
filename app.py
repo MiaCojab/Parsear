@@ -4,7 +4,7 @@ import json
 import re
 import urllib.parse
 
-st.title("🔎 Limpiar Excel")
+st.title("🔎 Limpiar CVS")
 
 uploaded_file = st.file_uploader("Sube tu CSV", type=["csv"])
 
