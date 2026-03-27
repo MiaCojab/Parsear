@@ -17,7 +17,7 @@ def procesar_csv(file):
 
     df = pd.read_csv(
         file,
-        sep=None,0
+        sep=None,
         engine="python",
         encoding="utf-8",
         on_bad_lines="skip"
