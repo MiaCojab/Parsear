@@ -4,7 +4,7 @@ import json
 import re
 import urllib.parse
 
-st.title("🔎 Limpiar Excel")
+st.title("🔎 ")
 
 uploaded_file = st.file_uploader("Sube tu CSV", type=["csv"])
 
@@ -53,7 +53,7 @@ def procesar_csv(file):
                 if host:
                     url = host.group(1).strip()
                     data["URL"] = url
-                    data["HOST"] = url
+                    #data["HOST"] = url
 
                 if login:
                     data["LOGIN"] = login.group(1).strip()
